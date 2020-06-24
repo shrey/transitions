@@ -1,7 +1,9 @@
 import React from 'react';
 import smallDeer from '../../small-deer.svg';
 import Particles from 'react-particles-js'
+import ReactFullPage from '@fullpage/react-fullpage'
 const ParticleComponent = () => (
+
     <Particles
     params={{
 	    "fps_limit": 28,

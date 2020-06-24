@@ -1,14 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import Particles from 'react-particles-js';
+
 import './App.css';
-import smallDeer from './small-deer.svg'
+
 import ParticleComponent from './components/particleContainer/particleContainer.component'
+
+import ReactPageScroller from 'react-page-scroller'
+
+import AboutMe from './components/aboutMe/aboutMe.component'
 
 function App() {
   return (
           <div>
+            <ReactPageScroller>
+
             <ParticleComponent />
+            <AboutMe />
+            <div>
+              Next Page
+            </div>
+            </ReactPageScroller>
           </div>
       );
   };
