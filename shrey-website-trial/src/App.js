@@ -8,9 +8,11 @@ import ReactPageScroller from 'react-page-scroller'
 
 import AboutMe from './components/aboutMe/aboutMe.component'
 
+import NavBar from './components/navbar/navbar.component'
 function App() {
   return (
           <div>
+            <NavBar />
             <ReactPageScroller>
 
             <ParticleComponent />
