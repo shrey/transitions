@@ -19,4 +19,30 @@
 
 .about-image{
     margin-left: 100px;
+    width: 50%;
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px
+}
+
+.about-skills-left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-skills-right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.about-skill{
+    margin: 10px;
+}
+
+.about-image-container{
+    width: 300px;
 }
