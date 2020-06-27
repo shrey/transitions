@@ -8,13 +8,16 @@ const AboutMe = () => {
 
         <div className="aboutMe-container" >
         <Fade delay={100} unmountOnExit={true} >
-          <h1>Shrey Dubey</h1>
+          <div className="first-line">Hi, My name is</div>
         </Fade>
         <Fade delay={200}>
-            <div>Software Engineer</div>
+            <div className="second-line">Shrey Dubey</div>
         </Fade>
         <Fade delay={300}>
-            Based in New Delhi
+            <div className="third-line">
+            I'm a software Engineer based in New Delhi.
+            </div>
+
         </Fade>
           </div>
 

@@ -9,6 +9,8 @@ import ReactPageScroller from 'react-page-scroller'
 import AboutMe from './components/aboutMe/aboutMe.component'
 
 import NavBar from './components/navbar/navbar.component'
+
+import About from './pages/about/about.component'
 function App() {
   return (
           <div>
@@ -17,9 +19,7 @@ function App() {
 
             <ParticleComponent />
             <AboutMe />
-            <div>
-              Next Page
-            </div>
+            <About />
             </ReactPageScroller>
           </div>
       );
