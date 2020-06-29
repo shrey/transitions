@@ -41,7 +41,7 @@ export const workedData = [
     },
     {
         Name: "JP Morgan Chase & Co.",
-        Position: "Virtual SDE Intern at JP Morgan Chase & Co,",
+        Position: "Virtual SDE Intern at JP Morgan Chase & Co.",
         date: "May 2020 - June 2020",
         PointsDescription: "My Contributions at Elastic mainly consisted of: ",
         Points: [

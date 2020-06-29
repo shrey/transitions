@@ -14,10 +14,13 @@ import About from './pages/about/about.component'
 
 import Worked from './pages/worked/worked.component'
 
+import ContactTags from './components/contact-tags/contact-tags.component'
+
 function App() {
   return (
           <div>
             <NavBar />
+            <ContactTags />
             <ReactPageScroller>
 
             <ParticleComponent />
