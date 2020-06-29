@@ -18,7 +18,7 @@ const Worked = () => {
                 <div className="worked-nav-item" onClick={() => handleClick(2)}>Offix</div>
                 <div className="worked-nav-item" onClick={() => handleClick(3)}>JP Morgan Chase & Co.</div>
             </div>
-            <WorkedComponent index={0} />
+            <WorkedComponent index={renderElement} />
         </div>
     )
 }

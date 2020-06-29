@@ -6,6 +6,15 @@
 .worked-nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 30px;
+}
+
+.worked-nav-item{
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        font-size: 40px;
+    }
 }

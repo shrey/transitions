@@ -6,8 +6,8 @@ const WorkedComponent = ({index}) => {
     const [companyData, setCompanyData] = useState({Points: []});
     useEffect(() => {
         setCompanyData(workedData[index]);
-
-    }, []);
+        console.log(index);
+    }, [index]);
     console.log(companyData);
     return (
         <div className="worked-content-container">
@@ -18,9 +18,7 @@ const WorkedComponent = ({index}) => {
                 <div className="worked-content-date">
                     {companyData.date}
                 </div>
-                <div className="worked-content-point-description">
-                    {companyData.PointsDescription}
-                </div>
+
                 <div className="worked-content-points">
                     {
                         companyData.Points.map(point => (
