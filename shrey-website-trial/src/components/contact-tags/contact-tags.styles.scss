@@ -1,5 +1,33 @@
 .contact-tags-container{
     right: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    &::after{
+        content: '';
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0 auto;
+        background-color: white;
+    }
+}
+
+.github-icon {
+    font-size: 100px;
+
+}
+
+.MuiSvgIcon-root {
+    font-size: 100px;
+    &:hover {
+        font-size: 30px;
+
+        cursor: pointer;
+    }
+    clear: none;
+
 }

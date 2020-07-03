@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <div className="about-skills">
                 <div className="about-skills-left">
-                    <div className="about-skill">Javascript (ES6+)</div>
+                    <div className="about-skill">Javascript</div>
                     <div className="about-skill">ReactJS</div>
                     <div className="about-skill">NodeJS</div>
                     <div className="about-skill">C++</div>

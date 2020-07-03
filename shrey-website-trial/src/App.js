@@ -16,18 +16,37 @@ import Worked from './pages/worked/worked.component'
 
 import ContactTags from './components/contact-tags/contact-tags.component'
 
+import Projects from './pages/projects/projects.component'
+import { width } from '@material-ui/system';
+
 function App() {
   return (
           <div>
             <NavBar />
-            <ContactTags />
-            <ReactPageScroller>
 
+            {/* <ReactPageScroller> */}
+            <div style={{height: "100vh",}}>
             <ParticleComponent />
+            </div>
+            <div style={{height: "100vh",}}>
             <AboutMe />
+            </div>
+            <div style={{height: "100vh",}}>
             <About />
+            </div>
+            <div style={{height: "100vh",}}>
             <Worked />
-            </ReactPageScroller>
+            </div>
+            <div style={{height: "100vh",}}>
+            <Projects />
+            </div>
+
+            <ContactTags />
+
+
+
+
+            {/* </ReactPageScroller> */}
           </div>
       );
   };
