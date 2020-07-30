@@ -1,12 +1,16 @@
 import React from 'react';
 import './navbar.styles.scss'
+
+import Scroll from 'react-scroll';
+
+const Link = Scroll.Link
+
 const NavBar = () => {
     return(
         <div className="navbar">
             <div className="navbar-left">
-            <div className="navbar-item">
                 Brand Logo
-            </div>
+
 
             </div>
             <div className="navbar-right">
